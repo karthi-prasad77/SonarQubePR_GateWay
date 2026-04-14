@@ -24,12 +24,16 @@ jobs:
       - name: Add Path
         run: echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
 
+      # 🔥 IMPORTANT: PR analysis parameters added here
       - name: Sonar Begin
         run: |
           dotnet sonarscanner begin \
             /k:"demo-console-app" \
             /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}" \
-            /d:sonar.login="${{ secrets.SONAR_TOKEN }}" 
+            /d:sonar.login="${{ secrets.SONAR_TOKEN }}" \
+            /d:sonar.pullrequest.key=${{ github.event.number }} \
+            /d:sonar.pullrequest.branch=${{ github.head_ref }} \
+            /d:sonar.pullrequest.base=${{ github.base_ref }}
 
       - name: Build
         run: dotnet build
