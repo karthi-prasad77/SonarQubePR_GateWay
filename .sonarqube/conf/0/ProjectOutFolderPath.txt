@@ -1,0 +1,1 @@
+/home/karthiprasad/sonar-demo/.sonarqube/out/0

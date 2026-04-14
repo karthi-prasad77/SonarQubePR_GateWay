@@ -1,0 +1,14 @@
+/home/karthiprasad/sonar-demo/bin/Debug/net8.0/sonar-demo
+/home/karthiprasad/sonar-demo/bin/Debug/net8.0/sonar-demo.deps.json
+/home/karthiprasad/sonar-demo/bin/Debug/net8.0/sonar-demo.runtimeconfig.json
+/home/karthiprasad/sonar-demo/bin/Debug/net8.0/sonar-demo.dll
+/home/karthiprasad/sonar-demo/bin/Debug/net8.0/sonar-demo.pdb
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.GeneratedMSBuildEditorConfig.editorconfig
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.AssemblyInfoInputs.cache
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.AssemblyInfo.cs
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.csproj.CoreCompileInputs.cache
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.dll
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/refint/sonar-demo.dll
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.pdb
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/sonar-demo.genruntimeconfig.cache
+/home/karthiprasad/sonar-demo/obj/Debug/net8.0/ref/sonar-demo.dll
